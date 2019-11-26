@@ -20,5 +20,9 @@ public class RadioTest {
         radio.tune("Radio 1");
         assertEquals("Radio 1", radio.getStation());
     }
+    @Test
+    public void hasVolume(){
+        assertEquals(4, radio.getVolume());
+    }
 
 }
