@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6f9d3169-c33f-4baf-af2d-105486b20026" name="Default Changelist" comment="" />
+    <list default="true" id="6f9d3169-c33f-4baf-af2d-105486b20026" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/CDPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/IPlay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/RecordPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CDPlayerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RecordPlayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,7 +23,14 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1U9U7zsS13zCkqJybxSFsaFHVTo" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -28,7 +43,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.RecordPlayerTest.canPlayTrack">
     <configuration name="All in StereoLab" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="StereoLab" />
       <option name="PACKAGE_NAME" value="" />
@@ -37,8 +52,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CDPlayerTest.canPlayTrack" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="StereoLab" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CDPlayerTest" />
+      <option name="METHOD_NAME" value="canPlayTrack" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RecordPlayerTest.canPlayTrack" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="StereoLab" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RecordPlayerTest" />
+      <option name="METHOD_NAME" value="canPlayTrack" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RecordPlayerTest.canPlayTrack" />
+        <item itemvalue="JUnit.CDPlayerTest.canPlayTrack" />
         <item itemvalue="JUnit.All in StereoLab" />
       </list>
     </recent_temporary>
@@ -55,5 +92,16 @@
       <updated>1574768141025</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
