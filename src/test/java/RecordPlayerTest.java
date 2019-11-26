@@ -14,4 +14,8 @@ public class RecordPlayerTest {
     public void canPlayTrack(){
         assertEquals("Playing Billie Jean", recordPlayer.play("Billie Jean"));
     }
+    @Test
+    public void hasVolume(){
+        assertEquals(4, recordPlayer.getVolume());
+    }
 }

@@ -14,4 +14,8 @@ public class CDPlayerTest {
     public void canPlayTrack(){
         assertEquals("Playing Thriller", cdPlayer.play("Thriller"));
     }
+    @Test
+    public void hasVolume(){
+        assertEquals(4, cdPlayer.getVolume());
+    }
 }
