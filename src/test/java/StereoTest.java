@@ -21,11 +21,17 @@ public class StereoTest {
         assertEquals("", stereo.getRadioStation());
 
     }
-
-
     @Test
     public void stereoCanTuneRadio(){
      assertEquals("Radio 1", stereo.tuneRadio("Radio 1"));
+    }
+    @Test
+    public void stereoCanPlayCD(){
+        assertEquals("Playing Thriller", stereo.playCD("Thriller"));
+    }
+    @Test
+    public void stereoCanPlayRecord(){
+        assertEquals("Playing Billie Jean", stereo.playRecord("Billie Jean"));
     }
 
 

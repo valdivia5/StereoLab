@@ -11,6 +11,9 @@ public class Stereo {
         this.cdPlayer = new CDPlayer();
         this.recordPlayer = new RecordPlayer();
     }
+    public String connect(Stereo stereo){
+        return "This " + stereo;
+    }
 
 
     public String tuneRadio(String newStation) {
@@ -19,5 +22,13 @@ public class Stereo {
 
     public String getRadioStation() {
         return radio.getStation();
+    }
+
+    public String playCD(String track) {
+        return cdPlayer.play(track);
+    }
+
+    public String playRecord(String track) {
+        return recordPlayer.play(track);
     }
 }

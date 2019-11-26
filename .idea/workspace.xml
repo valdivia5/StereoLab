@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f9d3169-c33f-4baf-af2d-105486b20026" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Stereo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/StereoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/IConnect.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Stereo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Stereo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StereoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StereoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Stereo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Stereo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/StereoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/StereoTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,24 +42,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StereoTest.stereoCanTuneRadio">
-    <configuration name="All in StereoLab" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="StereoLab" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RadioTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="StereoLab" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RadioTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.StereoTest.stereoCanPlayRecord">
     <configuration name="StereoTest.canGetRadioStation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="StereoLab" />
       <option name="PACKAGE_NAME" value="" />
@@ -67,11 +53,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StereoTest.canPlayCD" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="StereoLab" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="StereoTest" />
+      <option name="METHOD_NAME" value="canPlayCD" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StereoTest.canTuneRadio" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="StereoLab" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="StereoTest" />
       <option name="METHOD_NAME" value="canTuneRadio" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StereoTest.stereoCanPlayRecord" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="StereoLab" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="StereoTest" />
+      <option name="METHOD_NAME" value="stereoCanPlayRecord" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -89,11 +95,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StereoTest.stereoCanPlayRecord" />
+        <item itemvalue="JUnit.StereoTest.canPlayCD" />
         <item itemvalue="JUnit.StereoTest.stereoCanTuneRadio" />
         <item itemvalue="JUnit.StereoTest.canGetRadioStation" />
         <item itemvalue="JUnit.StereoTest.canTuneRadio" />
-        <item itemvalue="JUnit.All in StereoLab" />
-        <item itemvalue="JUnit.RadioTest" />
       </list>
     </recent_temporary>
   </component>
